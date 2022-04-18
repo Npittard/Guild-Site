@@ -1,0 +1,35 @@
+.main {
+    background-color: black;
+    color: #7fd81e;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+    overflow: hidden;
+    position: relative;
+    height: 20%;
+    margin-top: 5px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-button {
+    color: #7fd81e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+ }
+ a.active{
+    background-color: #7fd81e;
+    color: white !important;
+ }
+.SBLogo{
+    text-decoration: none;
+    color: #7fd81e;
+}
+.nav-button a:hover{
+    background-color: #7fd81e;
+    color: white;
+}
