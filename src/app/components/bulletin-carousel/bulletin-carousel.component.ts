@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IMAGES } from './images';
 
+
 @Component({
   selector: 'app-bulletin-carousel',
   templateUrl: './bulletin-carousel.component.html',
@@ -8,15 +9,47 @@ import { IMAGES } from './images';
 })
 export class BulletinCarouselComponent implements OnInit {
 
-  images = IMAGES
-  i = 0
-  getSlide() {
-    console.log(this.images[this.i])
-    return this.images[this.i];
-
+  images = IMAGES;
+  index = 1;
+  // this.images refers to whole array
+  generateImage() {  
+    let src = "";
+    for (const c in this.images){
+      let value = this.images[c].id
+      if (this.index === value){
+        src = this.images[c].image
+      }  
+    }
+  return src;
+}
+  generateLink(){
+    let src = "";
+    for (const c in this.images){
+      let value = this.images[c].id
+      if (this.index === value){
+        src = this.images[c].link
+      }  
+    }
+  return src;
+  }
+  nextImage(){  
+    this.index++
+    if (this.index >= 4){
+      this.index = 1
+    }
+    console.log(this.index)
+  }
+  prevImage(){  
+    this.index--
+    if (this.index <= 0){
+      this.index = 3
+    }
+    console.log(this.index)
   }
 
+
   constructor() { }
+
 
   ngOnInit(): void {
   }

@@ -3,7 +3,7 @@ export const IMAGES: Image[] = [
     {
       image: 'https://www.warcrafttavern.com/wp-content/uploads/2022/04/Sunwell-Plateau-Now-Available-on-TBC-Classic-PTR-Featured-Image-1024x576.jpg',
       title: 'Sunwell Now Available For Testing On PTR',
-      link: 'https://www.reddit.com/r/classicwowtbc/comments/u4ee94/sunwell_plateau_now_available_on_tbc_classic_ptr/',
+      link: 'https://www.warcrafttavern.com/tbc/news/sunwell-plateau-now-available-on-tbc-classic-ptr/',
       id: 1
     }, 
     {
