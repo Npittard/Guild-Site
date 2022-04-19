@@ -32,6 +32,16 @@ export class BulletinCarouselComponent implements OnInit {
     }
   return src;
   }
+  generateTitle(){
+    let text = "";
+    for (const c in this.images){
+      let value = this.images[c].id
+      if (this.index === value){
+        text = this.images[c].title
+      }  
+    }
+  return text;
+  }
   nextImage(){  
     this.index++
     if (this.index >= 4){
