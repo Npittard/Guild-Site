@@ -1,10 +1,46 @@
 *{
     color: white;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
 }
 
-
+.carousel{
+    height: 350px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
 img{
-    max-width: 500px;
-    max-height: 500px
+    max-width: 550px;
+    max-height: 550px;
+    margin: 15px;
+    border: solid #7fd81e 2px;
+    border-radius: 10%;
 }
+
+.carouselTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.prev{
+    border: none;
+    text-decoration: none;
+    background-color: #7fd81e;
+    padding: 15px 32px;
+    color: white;
+}
+.next{
+    border: none;
+    text-decoration: none;
+    background-color: #7fd81e;
+    padding: 15px 32px;
+    color: white;
+}
+

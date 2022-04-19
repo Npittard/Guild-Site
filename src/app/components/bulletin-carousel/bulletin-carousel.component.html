@@ -1,12 +1,14 @@
+<div class="carouselTitle">
+  <h2>{{generateTitle()}}</h2>
+</div>
 <div class="carousel">
-  <div>
-    <h2 class="caourselTitle">{{generateTitle()}}</h2>
+  <div class="btn">
+    <button (click)='prevImage()' class="prev">Prev</button>
   </div>
-  <div class="slides">
+  <div class="images">
     <a href="{{generateLink()}}" target="_blank"><img src="{{ generateImage() }}" alt=""></a>
   </div>
   <div class="btn">
-    <button (click)='prevImage()' class="prev">Prev</button>
     <button (click)='nextImage()' class="next">Next</button>
   </div>
 </div>

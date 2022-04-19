@@ -5,14 +5,14 @@
     border-bottom: solid white 2px;
     overflow: hidden;
     position: relative;
-    height: 20%;
     margin-top: 5px;
+    border: 2px solid blue;
+    display: flex;
 }
 .nav-list{
-    display: flex;
-    justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    border: solid red 2px;
 }
 .nav-button {
     color: #7fd81e;
@@ -29,7 +29,7 @@
     text-decoration: none;
     color: #7fd81e;
 }
-.nav-button a:hover{
+.nav-button:hover{
     background-color: #7fd81e;
     color: white;
 }
