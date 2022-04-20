@@ -4,21 +4,21 @@
     border-top: solid white 2px;
     border-bottom: solid white 2px;
     overflow: hidden;
-    position: relative;
     margin-top: 5px;
-    border: 2px solid blue;
     display: flex;
+    justify-content: space-between;
 }
 .nav-list{
-    flex-direction: row;
     align-items: center;
-    border: solid red 2px;
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
 }
 .nav-button {
     color: #7fd81e;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+
     height: 100%;
  }
  a.active{
@@ -28,8 +28,19 @@
 .SBLogo{
     text-decoration: none;
     color: #7fd81e;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 .nav-button:hover{
     background-color: #7fd81e;
     color: white;
+}
+
+.active{
+    color: white;
+    background-color: #7fd81e;
+}
+li a{
+    text-decoration: none;
+    list-style-type: none;
 }
