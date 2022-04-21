@@ -1,11 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: #c1edcc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #C1EDCC;
 }
-
-body {
-    background-color: black;
+.mainContainer{
+    background-color: #453F3C;
+    margin:1% 3% 3% 3%;
+}
+.navBar{
+    background-color: #797270;
 }

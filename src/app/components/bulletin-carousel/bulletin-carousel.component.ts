@@ -21,7 +21,7 @@ export class BulletinCarouselComponent implements OnInit {
       }  
     }
   return src;
-}
+  }
   generateLink(){
     let src = "";
     for (const c in this.images){
@@ -47,14 +47,21 @@ export class BulletinCarouselComponent implements OnInit {
     if (this.index >= 4){
       this.index = 1
     }
-    console.log(this.index)
   }
   prevImage(){  
     this.index--
     if (this.index <= 0){
       this.index = 3
     }
-    console.log(this.index)
+  }
+  dot1(){  
+    this.index = 1;
+  }
+  dot2(){  
+    this.index = 2;
+  }
+  dot3(){  
+    this.index = 3;
   }
 
 

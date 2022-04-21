@@ -1,14 +1,24 @@
 <div class="carouselTitle">
   <h2>{{generateTitle()}}</h2>
 </div>
+
 <div class="carousel">
-  <div class="btn">
-    <button (click)='prevImage()' class="prev">Prev</button>
-  </div>
   <div class="images">
+    <button (click)='prevImage()' class="prev carouselBtn">Prev</button>
     <a href="{{generateLink()}}" target="_blank"><img src="{{ generateImage() }}" alt=""></a>
+    <button (click)='nextImage()' class="next carouselBtn">Next</button>
   </div>
-  <div class="btn">
-    <button (click)='nextImage()' class="next">Next</button>
-  </div>
+</div>
+<div class="dotsdiv">
+  <ol class="carouselDotsList">
+    <li class="carouselDot">
+      <button class="dotBtn" type="button" (click)="dot1()"></button>
+    </li>
+    <li class="carouselDot">
+      <button class="dotBtn" type="button" (click)="dot2()"></button>
+    </li>
+    <li class="carouselDot">
+      <button class=" dotBtn" type="button" (click)="dot3()"></button>
+    </li>
+  </ol>
 </div>

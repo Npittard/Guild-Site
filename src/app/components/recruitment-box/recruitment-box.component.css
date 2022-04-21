@@ -1,0 +1,55 @@
+.recruitmentTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container{
+    border-bottom: #C1EDCC 2px solid;
+}
+.classList{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    flex-direction: row;
+    list-style: none;
+}
+
+.Warlock {
+    color:#8788EE ;
+}
+.Warrior {
+    color:#C69B6D ;
+}
+.Shaman {
+    color:#0070DD ;
+}
+.Priest {
+    color:#FFFFFF ;
+}
+.Paladin {
+    color:#F48CBA ;
+}
+.Mage {
+    color:#3FC7EB ;
+}
+.Druid {
+    color:#FF7C0A ;
+}
+.Rogue {
+    color:#FFF468 ;
+}
+.Hunter {
+    color:#AAD372 ;
+}
+
+.recruitmentOpen{
+    color: #39FF14;
+}
+.recruitmentClosed{
+    color: red;
+}

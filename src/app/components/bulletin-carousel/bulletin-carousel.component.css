@@ -1,46 +1,101 @@
 *{
-    color: white;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
+   box-sizing: border-box; 
+   color: #C1EDCC;
+}
+
+li a{
+    justify-content: center;
 }
 
 .carousel{
+    max-height: 10%;
     height: 350px;
     width: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
 }
 
 img{
     max-width: 550px;
     max-height: 550px;
     margin: 15px;
-    border: solid #7fd81e 2px;
+    border: solid #C1EDCC 2px;
     border-radius: 10%;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .carouselTitle{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-}
-
-
-.prev{
-    border: none;
-    text-decoration: none;
-    background-color: #7fd81e;
-    padding: 15px 32px;
+    margin-top: 30px;
     color: white;
 }
+
+.carouselBtn{
+    border: none;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    background-color: #A7A7A9;
+    color: #453F3C;
+    font-weight: 400;
+    font-size: large;
+    opacity: 90%;
+}
+
 .next{
-    border: none;
-    text-decoration: none;
-    background-color: #7fd81e;
-    padding: 15px 32px;
-    color: white;
+    right: -1rem;
+}
+.prev{
+    left: -1rem;
 }
 
+.carouselDotsList{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.carouselDot{
+    padding: 0;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #A7A7A9;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+}
+.carouselDot a{
+    text-decoration: none;
+}
+.dotsdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .dotBtn{
+     height: 100%;
+     width: 100%;
+     opacity: 0%;
+     padding: 0;
+     height: 1rem;
+     width: 1rem;
+     border-radius: 50%;
+     background-color: #333;
+     margin-top: 0;
+ }
+ .carouselDot:hover{
+     background-color: #666666;
+ }
