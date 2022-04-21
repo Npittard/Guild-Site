@@ -21,7 +21,7 @@ img{
     height: 350px;
     margin: 0;
     border: solid #C1EDCC 2px;
-    background-color: rgb(175, 162, 162);
+    background-color: rgb(110, 106, 106);
     border-radius: 10%;
     flex-shrink: 0;
 }
