@@ -9,7 +9,7 @@ li a{
 
 .carousel{
     max-height: 10%;
-    height: 450px;
+    height: 350px;
     width: auto;
     display: flex;
     align-items: center;
@@ -85,7 +85,6 @@ img{
 .dotsdiv{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 }
  .dotBtn{
      height: 100%;
