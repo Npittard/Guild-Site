@@ -7,9 +7,9 @@ export const IMAGES: Image[] = [
       id: 1
     }, 
     {
-      image: 'https://media.mmo-champion.com/images/news/2022/april/expansionBanner.jpg',
-      title: 'New Expansion Announcement April 19th 2022',
-      link: 'https://www.mmo-champion.com/content/10512-Watch-the-World-of-Warcraft-Expansion-Reveal-on-April-19',
+      image: '../../../assets/imgs/wotlk.png',
+      title: 'Wrath of the Lich King Announcement 2022',
+      link: 'https://www.wowhead.com/news/wow-classic-wrath-of-the-lich-king-releasing-in-2022-326746',
       id: 2
     }, 
     { 
