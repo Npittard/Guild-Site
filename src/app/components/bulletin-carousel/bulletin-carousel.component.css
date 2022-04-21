@@ -8,9 +8,6 @@ li a{
 }
 
 .carousel{
-    max-height: 10%;
-    height: 350px;
-    width: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -20,10 +17,11 @@ li a{
 }
 
 img{
-    max-width: 400px;
-    max-height: 400px;
+    width: 700px;
+    height: 350px;
     margin: 0;
     border: solid #C1EDCC 2px;
+    background-color: rgb(110, 106, 106);
     border-radius: 10%;
     flex-shrink: 0;
 }
@@ -31,7 +29,7 @@ img{
 .images{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
 }
