@@ -1,15 +1,17 @@
 .recruitmentTitle {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: x-large;
 }
 .container{
     border-bottom: #C1EDCC 2px solid;
 }
 .classList{
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     justify-content: space-around;
 }

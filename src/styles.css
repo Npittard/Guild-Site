@@ -5,9 +5,6 @@ html {
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: #c1edcc;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     color: #C1EDCC;
 }
 .mainContainer{
