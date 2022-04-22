@@ -13,6 +13,8 @@
     list-style-type: none;
 }
 .nav-button {
+    font-family:'Bebas Neue', cursive;
+    font-size: larger;
     color: #B0C0BC;
     text-align: center;
     padding: 14px 16px;
@@ -23,9 +25,13 @@
     color: #797270;
  }
 .SBLogo{
+    display: flex;
     text-decoration: none;
     color: #C1EDCC;
-    margin-left: 20px;
+    margin-left: 10px;
+    font-family: 'My Soul', cursive;
+    font-size: larger;
+    align-items: center;
 }
 .nav-button:hover{
     color: white;
