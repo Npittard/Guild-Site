@@ -15,12 +15,13 @@
 .nav-button {
     font-family:'Bebas Neue', cursive;
     font-size: larger;
-    color: #B0C0BC;
     text-align: center;
     padding: 14px 16px;
     height: 100%;
+    background-color: #797270;
+    border: none;
  }
- a.active{
+ button.active{
     background-color: #C1EDCC;
     color: #797270;
  }
@@ -33,11 +34,16 @@
     font-size: larger;
     align-items: center;
 }
-.nav-button:hover{
+nav-button:hover{
     color: white;
 }
 
-li a{
+a{
     text-decoration: none;
     list-style-type: none;
+    color: #B0C0BC;
+}
+
+a:hover{
+    color: white;
 }
