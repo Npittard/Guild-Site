@@ -1,6 +1,5 @@
 .main {
     color: #C1EDCC;
-    overflow: hidden;
     margin-top: 0;
     display: flex;
     justify-content: space-between;
@@ -16,8 +15,8 @@
     font-family:'Bebas Neue', cursive;
     font-size: larger;
     text-align: center;
-    padding: 14px 16px;
-    height: 100%;
+    padding: .5rem 1rem;
+    max-height: 100%;
     background-color: #797270;
     border: none;
  }
@@ -29,10 +28,13 @@
     display: flex;
     text-decoration: none;
     color: #C1EDCC;
-    margin-left: 10px;
+    margin-left: 2%;
     font-family: 'My Soul', cursive;
     font-size: larger;
     align-items: center;
+}
+h1{
+    font-size: xx-large;
 }
 nav-button:hover{
     color: white;
@@ -46,4 +48,23 @@ a{
 
 a:hover{
     color: white;
+}
+
+@media (max-width: 710px ){
+    .main{
+        justify-content: space-evenly;
+    }
+    .nav-list{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-button{
+        font-size:medium;
+    }
+    .active{
+        padding: .1rem;
+    }
+    h1{
+        font-size: x-large;
+    }
 }

@@ -55,3 +55,16 @@ li{
 .recruitmentClosed{
     color: red;
 }
+
+@media (max-width: 800px ){
+
+    .recruitmentTitle{
+        font-size: large;
+    }
+    .classList{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 2%;
+    }
+
+}

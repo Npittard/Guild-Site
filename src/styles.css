@@ -7,6 +7,7 @@
 #797270
 #453F3C */
 
+
 html {
     margin: 0;
     padding: 0;
@@ -18,8 +19,23 @@ html {
 .mainContainer{
     background-color: #453F3C;
     margin:1% 3% 3% 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .navBar{
     background-color: #797270;
     border-bottom:#c1edcc 2px solid ;
+}
+
+@media (max-width: 710px ){
+    .mainContainer{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .recruitmentClasses{
+        margin-bottom: 2%;
+    }
 }
