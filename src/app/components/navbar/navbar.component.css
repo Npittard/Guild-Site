@@ -68,3 +68,18 @@ a:hover{
         font-size: x-large;
     }
 }
+@media (max-width: 360px ){
+    .main{
+        justify-content: space-evenly;
+    }
+    .nav-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .nav-button{
+        font-size:medium;
+    }
+    h1{
+        font-size: x-large;
+    }
+}
